@@ -26,7 +26,8 @@ public class CmsPrefrenceAreaController {
     @Autowired
     private CmsPrefrenceAreaService prefrenceAreaService;
 
-    @ApiOperation("获取所有商品优分支V3选")
+
+    @ApiOperation("获取所有商品优切分支分支V2V3选")
     @RequestMapping(value = "/listAll", method = RequestMethod.GET)
     @ResponseBody
     public CommonResult<List<CmsPrefrenceArea>> listAll() {
